@@ -65,7 +65,7 @@ int main()
 				cout<<endl;
 			break;
 		}
-		cout<<"Press 1 to insert an element at a specified position"<<endl<<"Press 2 to delete an element whose position is given"<<endl<<"Press 3 to find the location of an element"<<endl<<"Press 4 to display the elements of the linear array"<<endl;
+		cout<<"Press 1 to insert an element at a specified position "<<endl<<"Press 2 to delete an element whose position is given"<<endl<<"Press 3 to find the location of an element"<<endl<<"Press 4 to display the elements of the linear array"<<endl;
 		cin>>choice;
 	}
 	return 0;
