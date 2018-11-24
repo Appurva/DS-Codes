@@ -36,7 +36,7 @@ void insertEnd(struct Node** start, int value)
 void insertBegin(struct Node** start, int value)
 {
 
-    struct Node *last = (*start)->prev;
+    struct Node *last = (*start)->prev ;
 
     struct Node* new_node = new Node;
     new_node->data = value;
