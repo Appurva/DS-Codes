@@ -138,7 +138,7 @@ int childnodes(node *root)
     childnodes(root->left);
     childnodes(root->right);
     }
-    return count;
+    return count ;
 }
 int internalnodes(node *root)
 {
