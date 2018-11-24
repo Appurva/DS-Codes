@@ -34,7 +34,7 @@ int main()
        int a[20];
        int n;
         cout<<"Size : ";
-        cin>>n;
+        cin>>n ;
         for(int i=0;i<n;i++)
         {
             cin>>a[i];
