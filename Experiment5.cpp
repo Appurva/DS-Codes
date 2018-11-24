@@ -34,7 +34,7 @@ public:
     {
                 node *ptr=top;
                 top=top->next;
-                delete(ptr);
+                delete(ptr) ;
 
     }
     void display()
