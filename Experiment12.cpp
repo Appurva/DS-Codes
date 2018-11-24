@@ -42,6 +42,6 @@ int main()
         cin>>a[i];
     heapsort(a,n);
     for(i=0;i<n;i++)
-        cout<<a[i]<<" ";
+        cout<<a[i]<<" " ;
 
 }
