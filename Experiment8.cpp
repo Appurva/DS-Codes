@@ -34,7 +34,7 @@ public:
     {
         a[n]=num;
         n=n+1;
-        insertion_sort();
+        insertion_sort() ;
     }
     void display()
     {
