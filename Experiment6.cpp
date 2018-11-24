@@ -35,7 +35,7 @@ public:
    void  peep()
   {
     if(top1 == -1)
-        cout<<"Stack Empty"<<endl;
+        cout<<"Stack Empty"<<endl ;
     else
         cout<<arr[top1]<<endl;
   }
