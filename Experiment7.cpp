@@ -31,7 +31,7 @@ void circular_queue :: Enqueue()
     cin>>ele;
     node *temp=new node;
     temp->data=ele;
-    temp->next=front;
+    temp->next=front ;
     if(front==NULL&& rear==NULL)
     {
         front=temp;
